@@ -86,7 +86,7 @@ const genderMap = {
 }
 
 export default {
-  name: 'CharactersList',
+  name: 'CharactersGid',
   props: {
     character: {
       type: Object,

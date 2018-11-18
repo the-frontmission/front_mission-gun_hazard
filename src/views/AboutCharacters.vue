@@ -1,18 +1,21 @@
 <template>
-  <div>
-    <h1>Characters</h1>
-    <CharactersList :characters="characters"/>
+  <div class="container">
+    <CharactersGrid
+      v-for="character in characters"
+      :key="character.uid"
+      :character="character"
+    />
   </div>
 </template>
 
 <script>
 import { mapState, mapActions } from 'vuex'
-import CharactersList from '@/components/aboutCharacters/CharactersList.vue'
+import CharactersGrid from '@/components/about/CharactersGrid.vue'
 
 export default {
   name: 'AboutCharacters',
   components: {
-    CharactersList,
+    CharactersGrid,
   },
   computed: {
     ...mapState('characters', {
