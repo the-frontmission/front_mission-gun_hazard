@@ -1,18 +1,11 @@
 <template>
   <section class="home-main mb-10px">
+    <h2>Front Mission: Gun Hazard</h2>
+    <span style="font-variant: small-caps;">Jane Doe</span>
+    <span style="font-variant: small-caps;">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</span>
+    <span style="font-variant-caps: small-caps;">Jane Doe</span>
+    <span style="font-feature-settings: 'smcp';">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</span>
     <HomeCarousel/>
-    <!-- <img class="card-img rounded-0 h-100" src="./img/main01-3.jpeg" alt="Card image"> -->
-    <!-- <div class="container-fluid px-0">
-      <div class="card border-0 rounded-0 text-white text-center">
-        <img class="card-img rounded-0" src="./img/main01-3.jpeg" alt="Card image">
-        <div class="card-img-overlay d-flex align-items-center">
-          <div class="w-100">
-            <h2 class="display-3 font-weight-bold">Gun Hazard</h2>
-            <p class="card-text">Front Mission Sirese</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </section>
 </template>
 
@@ -28,11 +21,29 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+  font-variant: small-caps;
+}
+
 .home-main {
   height: 100vh;
 }
 
 .card-img {
   object-fit: cover;
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all 5s ease;
+}
+.slide-fade-leave-active {
+  transition: all 7s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(500px);
+  opacity: 0;
 }
 </style>
