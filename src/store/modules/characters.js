@@ -16,9 +16,11 @@ const getters = {
 const mutations = {
   [REQUEST_CHARACTERS] (state) {
     state.list = []
+    state.status = 'request'
   },
   [RECEIVE_CHARACTERS] (state, { characters }) {
     state.list = [...characters]
+    state.status = 'receive'
   },
   [FAILURE_CHARACTERS] (state, { error }) {
     state.list = []
