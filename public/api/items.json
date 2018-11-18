@@ -2,6 +2,7 @@
   {
     "name": "Body",
     "nameKO": "바디",
+    "color": "bg-primary",
     "contents": [
       {
         "name": "FN-8G 하비 G",
@@ -26,8 +27,9 @@
     ]
   },
   {
-    "name": "Main",
+    "name": "Main Weapon",
     "nameKO": "주무기",
+    "color": "bg-secondary",
     "contents": [
       {
         "name": "25mm발칸",
@@ -48,8 +50,9 @@
     ]
   },
   {
-    "name": "Special le",
+    "name": "Special Weapon",
     "nameKO": "특수무기",
+    "color": "bg-success",
     "contents": [
       {
         "name": "하드 너클",
@@ -118,8 +121,9 @@
     ]
   },
   {
-    "name": "main ",
+    "name": "Wanzer Gear",
     "nameKO": "번처장비",
+    "color": "bg-danger",
     "contents": [
       {
         "name": "버니어 유닛",
@@ -136,8 +140,9 @@
     ]
   },
   {
-    "name": "",
+    "name": "Supplies",
     "nameKO": "소모품",
+    "color": "bg-warning",
     "contents": [
       {
         "name": "퍼스트 에이드",
@@ -160,6 +165,7 @@
   {
     "name": "Pilot",
     "nameKO": "파일럿용",
+    "color": "bg-info",
     "contents": [
       {
         "name": "핸드건",

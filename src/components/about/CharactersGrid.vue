@@ -11,34 +11,34 @@
     <div class="col-lg-8">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6">
-          <dl class="row">
-            <dd class="col-12 bg-dark text-white">Full Name</dd>
-            <dd class="col-5 col-sm-6 col-md-3 text-secondary">English</dd>
-            <dd class="col-7 col-sm-6 col-md-9">{{ character.nameEN }}</dd>
-            <dd class="col-5 col-sm-6 col-md-3 text-secondary">日本語</dd>
-            <dd class="col-7 col-sm-6 col-md-9">{{ character.nameJP }}</dd>
+          <dl class="row mb-0">
+            <dd class="col-12 py-2 bg-dark text-white">Full Name</dd>
+            <dd class="col-5 col-sm-6 col-md-3 pb-2 border-bottom text-secondary">English</dd>
+            <dd class="col-7 col-sm-6 col-md-9 pb-2 border-bottom">{{ character.nameEN }}</dd>
+            <dd class="col-5 col-sm-6 col-md-3 pb-2 border-bottom text-secondary">日本語</dd>
+            <dd class="col-7 col-sm-6 col-md-9 pb-2 border-bottom">{{ character.nameJP }}</dd>
             <dd class="col-5 col-sm-6 col-md-3 text-secondary">한글</dd>
             <dd class="col-7 col-sm-6 col-md-9">{{ character.nameKO }}</dd>
           </dl>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 mb-2">
-          <dl class="row">
-            <dd class="col-12 bg-dark text-white">Biographical</dd>
-            <dd class="col-5 text-secondary">출생</dd>
-            <dd class="col-7">{{ character.born }} 년</dd>
-            <dd class="col-5 text-secondary">연령</dd>
-            <dd class="col-7">{{ character.age }} 세</dd>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <dl class="row mb-0">
+            <dd class="col-12 py-2 bg-dark text-white">Biographical</dd>
+            <dd class="col-5 pb-2 border-bottom text-secondary">출생</dd>
+            <dd class="col-7 pb-2 border-bottom">{{ character.born }} 년</dd>
+            <dd class="col-5 pb-2 border-bottom text-secondary">연령</dd>
+            <dd class="col-7 pb-2 border-bottom">{{ character.age }} 세</dd>
             <dd class="col-5 text-secondary">상태</dd>
             <dd class="col-7">{{ statusMap[character.status]['KO'] }}</dd>
           </dl>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3">
-          <dl class="row">
-            <dd class="col-12 bg-dark text-white">Personal</dd>
-            <dd class="col-5 text-secondary">신장</dd>
-            <dd class="col-7">{{ character.height }} cm</dd>
-            <dd class="col-5 text-secondary">체중</dd>
-            <dd class="col-7">{{ character.weight }} kg</dd>
+          <dl class="row mb-0">
+            <dd class="col-12 py-2 bg-dark text-white">Personal</dd>
+            <dd class="col-5 pb-2 border-bottom text-secondary">신장</dd>
+            <dd class="col-7 pb-2 border-bottom">{{ character.height }} cm</dd>
+            <dd class="col-5 pb-2 border-bottom text-secondary">체중</dd>
+            <dd class="col-7 pb-2 border-bottom">{{ character.weight }} kg</dd>
             <dd class="col-5 text-secondary">성별</dd>
             <dd class="col-7">{{ genderMap[character.gender]['KO'] }}</dd>
           </dl>
@@ -46,8 +46,8 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <dl class="row">
-            <dd class="col-12 bg-dark text-white">Comment</dd>
+          <dl class="row mb-0">
+            <dd class="col-12 py-2 bg-dark text-white">Comment</dd>
             <dd class="col-12">{{ character.descriptionJP }}</dd>
             <dd class="col-12">{{ character.descriptionKO }}</dd>
             <dd class="col-md-6">
