@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand fixed-top navbar-dark flex-column flex-md-row bg-transparent- ">
+  <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bg-dark">
     <a class="navbar-brand" href="#">FM: Gun Hazard</a>
     <div class="w-100">
       <ul class="navbar-nav flex-row justify-content-around justify-content-md-center">
@@ -48,7 +48,5 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
-  background-color: rgba(0, 0, 0, .4);
-}
+
 </style>
