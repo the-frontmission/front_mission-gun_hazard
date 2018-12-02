@@ -10,13 +10,11 @@
 
 <script>
 import { mapState, mapActions } from 'vuex'
-import CharactersGrid from '@/components/characters/CharactersGrid.vue'
 import CharacterGrid from '@/components/characters/CharacterGrid.vue'
 
 export default {
   name: 'CharactersView',
   components: {
-    CharactersGrid,
     CharacterGrid,
   },
   computed: {
