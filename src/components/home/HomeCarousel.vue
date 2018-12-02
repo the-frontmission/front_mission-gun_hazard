@@ -30,21 +30,21 @@
         key="first"
         class="carousel-item active"
       >
-        <img class="d-block w-100" src="./img/main01-1.jpeg" alt="First slide">
+        <img class="d-block w-100" src="./img/main-1.jpeg" alt="First slide">
       </div>
       <div
         v-show="currentItem === 1"
         key="second"
-        class="carousel-item active second"
+        class="carousel-item active"
       >
-        <img class="d-block w-100" src="./img/main01-2.jpeg" alt="Second slide">
+        <img class="d-block w-100" src="./img/main-2.jpeg" alt="Second slide">
       </div>
       <div
         v-show="currentItem === 2"
         key="third"
         class="carousel-item active"
       >
-        <img class="d-block w-100" src="./img/main01-3.jpeg" alt="Third slide">
+        <img class="d-block w-100" src="./img/main-3.jpeg" alt="Third slide">
       </div>
       </transition-group>
     </div>
@@ -53,7 +53,7 @@
       href="#carouselIndicators"
       data-slide="prev"
       class="carousel-control-prev"
-      @click="prevCarousel"
+      @click.prevent="prevCarousel"
     >
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -63,7 +63,7 @@
       href="#carouselIndicators"
       data-slide="next"
       class="carousel-control-next"
-      @click="nextCarousel"
+      @click.prevent="nextCarousel"
     >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
@@ -110,7 +110,6 @@ export default {
 .slide-enter {
   transform: translateX(-100%);
 }
-
 
 .leave-to {
   transform: translateX(-100%);

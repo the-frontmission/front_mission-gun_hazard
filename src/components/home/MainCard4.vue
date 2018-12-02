@@ -3,34 +3,40 @@
     <div class="container-fluid px-5px">
       <div class="row mx-0">
         <div class="col-md-4 mb-10px px-5px">
-          <div class="card border-0 rounded-0 text-white text-center">
-            <img class="card-img rounded-0" src="./img/main02-1.jpeg" alt="Card image">
-            <div class="card-img-overlay d-flex align-items-center">
-              <div class="w-100">
-                <h2 class="display-3 font-weight-bold">Gun Hazard</h2>
-                <p class="card-text">Front Mission Sirese</p>
+          <div class="card border-0 rounded-0">
+            <img class="card-img rounded-0" src="./img/card-3.jpeg" alt="Card image">
+            <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
+              <div class="w-100 text-white text-center">
+                <h2 class="display-3 font-weight-bold">Parts</h2>
+                <router-link class="btn btn-outline-light" :to="{ name: 'parts' }">
+                  View
+                </router-link>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-10px px-5px">
-          <div class="card border-0 rounded-0 text-white text-center">
-            <img class="card-img rounded-0" src="./img/main02-2.jpeg" alt="Card image">
-            <div class="card-img-overlay d-flex align-items-center">
-              <div class="w-100">
-                <h2 class="display-3 font-weight-bold">Gun Hazard</h2>
-                <p class="card-text">Front Mission Sirese</p>
+          <div class="card border-0 rounded-0">
+            <img class="card-img rounded-0" src="./img/card-4.jpeg" alt="Card image">
+            <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
+              <div class="w-100 text-white text-center">
+                <h2 class="display-3 font-weight-bold">Scripts</h2>
+                <router-link class="btn btn-outline-light" :to="{ name: 'scripts' }">
+                  View
+                </router-link>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-10px px-5px">
-          <div class="card border-0 rounded-0 text-white text-center">
-            <img class="card-img rounded-0" src="./img/main02-2.jpeg" alt="Card image">
-            <div class="card-img-overlay d-flex align-items-center">
-              <div class="w-100">
-                <h2 class="display-3 font-weight-bold">Gun Hazard</h2>
-                <p class="card-text">Front Mission Sirese</p>
+          <div class="card border-0 rounded-0">
+            <img class="card-img rounded-0" src="./img/card-2.jpeg" alt="Card image">
+            <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
+              <div class="w-100 text-white text-center">
+                <h2 class="display-3 font-weight-bold">Videos</h2>
+                <router-link class="btn btn-outline-light" :to="{ name: 'videos' }">
+                  View
+                </router-link>
               </div>
             </div>
           </div>
@@ -46,4 +52,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.bg-gradient-dark {
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0));
+}
+</style>
+

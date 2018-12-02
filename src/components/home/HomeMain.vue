@@ -1,10 +1,5 @@
 <template>
   <section class="home-main mb-10px">
-    <h2>Front Mission: Gun Hazard</h2>
-    <span style="font-variant: small-caps;">Jane Doe</span>
-    <span style="font-variant: small-caps;">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</span>
-    <span style="font-variant-caps: small-caps;">Jane Doe</span>
-    <span style="font-feature-settings: 'smcp';">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</span>
     <HomeCarousel/>
   </section>
 </template>
@@ -24,11 +19,6 @@ export default {
 h2 {
   font-variant: small-caps;
 }
-
-.home-main {
-  height: 100vh;
-}
-
 .card-img {
   object-fit: cover;
 }
