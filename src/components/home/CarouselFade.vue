@@ -11,8 +11,8 @@
           <div class="carousel-caption d-block">
             <div class="d-flex justify-content-center align-items-center h-100">
               <div>
-                <h5 class="display-1 text-uppercase font-weight-bold">{{ item.title }}</h5>
                 <p class="display-4 small-caps">{{ item.text }}</p>
+                <p class="display-1 text-uppercase- small-caps font-weight-bold">{{ item.title }}</p>
               </div>
             </div>
           </div>
@@ -48,8 +48,8 @@ export default {
     return {
       list: [
         {
-          title: 'GUN HAZARD',
-          text: ': Front Mission',
+          title: 'Gun Hazard',
+          text: 'Front Mission',
           img: pic1,
         },
         {
