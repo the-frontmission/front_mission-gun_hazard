@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <PartCard
         v-for="(item, index) in parts" :key="index"
