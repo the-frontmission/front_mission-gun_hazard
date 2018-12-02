@@ -1,4 +1,4 @@
-export const parseItems = (list) => {
+export const parseParts = (list) => {
   const result = [];
   list.forEach((group, index) => {
     const { name, nameKO, contents, color } = group
