@@ -7,10 +7,10 @@ export default {
       url: '/api/characters.json',
     }).then(response => response.data)
   },
-  getItems() {
+  getParts() {
     return axios({
       method: 'GET',
-      url: '/api/items.json',
+      url: '/api/parts.json',
     }).then(response => response.data)
   },
 }

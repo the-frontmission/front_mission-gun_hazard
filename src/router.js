@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HomeView from './views/HomeView.vue'
-import AboutView from './views/AboutView.vue'
+import GameView from './views/GameView.vue'
+import CharactersView from './views/CharactersView.vue'
+import PartsView from './views/PartsView.vue'
+import ScriptsView from './views/ScriptsView.vue'
+import VideosView from './views/VideosView.vue'
 
 Vue.use(Router)
 
@@ -15,40 +19,29 @@ export default new Router({
       component: HomeView,
     },
     {
-      path: '/about',
-      // component: () => import(/* webpackChunkName: "about" */ './views/AboutView.vue'),
-      component: AboutView,
-      children: [
-        {
-          path: '',
-          redirect: { name: 'game' },
-        },
-        {
-          path: 'game',
-          name: 'game',
-          component: () => import(/* webpackChunkName: "game" */ './views/AboutGame.vue'),
-        },
-        {
-          path: 'characters',
-          name: 'characters',
-          component: () => import(/* webpackChunkName: "characters" */ './views/AboutCharacters.vue'),
-        },
-        {
-          path: 'items',
-          name: 'items',
-          component: () => import(/* webpackChunkName: "items" */ './views/AboutItems.vue'),
-        },
-      ],
+      path: '/game',
+      name: 'game',
+      component: GameView,
+    },
+    {
+      path: '/characters',
+      name: 'characters',
+      component: CharactersView,
+    },
+    {
+      path: '/parts',
+      name: 'parts',
+      component: PartsView,
     },
     {
       path: '/scripts',
       name: 'scripts',
-      component: () => import(/* webpackChunkName: "scripts" */ './views/ScriptsView.vue'),
+      component: ScriptsView,
     },
     {
       path: '/videos',
       name: 'videos',
-      component: () => import(/* webpackChunkName: "videos" */ './views/VideosView.vue'),
+      component: VideosView,
     },
   ],
 })
