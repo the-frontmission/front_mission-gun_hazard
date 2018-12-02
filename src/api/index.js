@@ -1,6 +1,12 @@
 import axios from 'axios'
 
 export default {
+  getGame() {
+    return axios({
+      method: 'GET',
+      url: '/api/game.json',
+    }).then(response => response.data)
+  },
   getCharacters() {
     return axios({
       method: 'GET',
