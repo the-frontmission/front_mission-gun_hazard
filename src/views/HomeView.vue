@@ -1,20 +1,20 @@
 <template>
   <div class="home">
-    <HomeMain/>
+    <CarouselFade/>
     <MainCard6/>
     <MainCard4/>
   </div>
 </template>
 
 <script>
-import HomeMain from '@/components/home/HomeMain.vue'
+import CarouselFade from '@/components/home/CarouselFade.vue'
 import MainCard6 from '@/components/home/MainCard6.vue'
 import MainCard4 from '@/components/home/MainCard4.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HomeMain,
+    CarouselFade,
     MainCard6,
     MainCard4,
   },
