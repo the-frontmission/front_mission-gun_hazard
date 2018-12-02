@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'ItemCard',
+  name: 'PartCard',
   props: {
     item: {
       type: Object,

@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: 'ItemGrid',
+  name: 'PartGrid',
   props: {
     item: {
       type: Object,
