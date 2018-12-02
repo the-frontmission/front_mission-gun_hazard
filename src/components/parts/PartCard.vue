@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+  <div class="col-md-6 col-lg-4 p-2">
     <div class="card rounded-0" :class="item.color">
       <template v-if="item.type === 'group'">
         <div class="card-body text-white text-right">
