@@ -7,6 +7,7 @@ import api from '@/api'
 
 const state = {
   about: {},
+  status: undefined,
 }
 
 const getters = {
@@ -15,12 +16,15 @@ const getters = {
 const mutations = {
   [REQUEST_GAME] (state) {
     state.about = {}
+    state.status = 'request'
   },
   [RECEIVE_GAME] (state, { about }) {
     state.about = about
+    state.status = 'receive'
   },
   [FAILURE_GAME] (state, { error }) {
     state.about = {}
+    state.status = error
   },
 }
 
