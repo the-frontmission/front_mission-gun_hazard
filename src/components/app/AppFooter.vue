@@ -3,30 +3,21 @@
     <div class="container-fluid p-3 p-md-5">
       <div class="row">
         <div class="col">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">About</a>
-              <ul>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Game</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Characters</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Items</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Scripts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Videos</a>
-            </li>
+          <ul class="nav">
+            <template v-for="(route, index) in routes">
+              <router-link
+                :key="index"
+                class="nav-item"
+                tag="li"
+                :to="{ name: route.name }"
+                active-class="active"
+                exact
+              >
+                <a class="nav-link text-capitalize">
+                  {{ route.name }}
+                </a>
+              </router-link>
+            </template>
           </ul>
         </div>
         <div class="col"></div>
@@ -36,11 +27,16 @@
 </template>
 
 <script>
-export default {
+import { routes } from '@/router'
 
+export default {
+  name: 'AppFooter',
+  data() {
+    return {
+      routes,
+    }
+  },
 }
 </script>
 
-<style>
-
-</style>
+<style scoped></style>

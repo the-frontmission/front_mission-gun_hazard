@@ -3,68 +3,36 @@
     <a class="navbar-brand" href="">GUN HAZARD</a>
     <div class="w-100">
       <ul class="navbar-nav flex-row justify-content-around justify-content-md-center">
-        <router-link
-          tag="li"
-          class="nav-item"
-          active-class="active"
-          to="/"
-          exact
-        >
-          <a class="nav-link">Home</a>
-        </router-link>
-        <router-link
-          tag="li"
-          class="nav-item"
-          active-class="active"
-          to="/game"
-        >
-          <a class="nav-link">Game</a>
-        </router-link>
-        <router-link
-          tag="li"
-          class="nav-item"
-          active-class="active"
-          to="/characters"
-        >
-          <a class="nav-link">Characters</a>
-        </router-link>
-        <router-link
-          tag="li"
-          class="nav-item"
-          active-class="active"
-          to="/parts"
-        >
-          <a class="nav-link">Parts</a>
-        </router-link>
-        <router-link
-          tag="li"
-          class="nav-item"
-          active-class="active"
-          to="/scripts"
-        >
-          <a class="nav-link">Scripts</a>
-        </router-link>
-        <router-link
-          tag="li"
-          class="nav-item"
-          active-class="active"
-          to="/videos"
-        >
-          <a class="nav-link">Videos</a>
-        </router-link>
+        <template v-for="(route, index) in routes">
+          <router-link
+            :key="index"
+            class="nav-item"
+            tag="li"
+            :to="{ name: route.name }"
+            active-class="active"
+            exact
+          >
+            <a class="nav-link text-capitalize">
+              {{ route.name }}
+            </a>
+          </router-link>
+        </template>
       </ul>
     </div>
   </nav>
 </template>
 
 <script>
+import { routes } from '@/router'
+
 export default {
   name: 'AppNavbar',
+  data() {
+    return {
+      routes,
+    }
+  },
 }
 </script>
 
-<style scoped>
-.df {
-  background-color: transparent;
-}
-</style>
+<style scoped></style>
