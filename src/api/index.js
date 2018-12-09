@@ -19,4 +19,10 @@ export default {
       url: '/api/parts.json',
     }).then(response => response.data)
   },
+  getVideos() {
+    return axios({
+      method: 'GET',
+      url: '/api/videos.json',
+    }).then(response => response.data)
+  },
 }

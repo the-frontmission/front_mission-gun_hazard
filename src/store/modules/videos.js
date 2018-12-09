@@ -1,10 +1,9 @@
 import {
-  REQUEST_VIDEOS,
-  RECEIVE_VIDEOS,
-  FAILURE_VIDEOS,
+  REQUEST_PARTS,
+  RECEIVE_PARTS,
+  FAILURE_PARTS,
 } from '@/store/mutation-types'
 import api from '@/api'
-import { parseParts } from '../utils'
 
 const state = {
   list: [],
@@ -15,28 +14,28 @@ const getters = {
 }
 
 const mutations = {
-  [REQUEST_VIDEOS] (state) {
+  [REQUEST_PARTS] (state) {
     state.list = []
     state.status = 'request'
   },
-  [RECEIVE_VIDEOS] (state, { parts }) {
-    state.list = parseParts(parts)
+  [RECEIVE_PARTS] (state, { videos }) {
+    state.list = [...videos]
     state.status = 'receive'
   },
-  [FAILURE_VIDEOS] (state, { error }) {
+  [FAILURE_PARTS] (state, { error }) {
     state.list = []
     state.status = error
   },
 }
 
 const actions = {
-  getParts ({ state, commit }) {
+  getVideos ({ state, commit }) {
     if (state.list.length) return;
 
-    commit(REQUEST_VIDEOS)
-    api.getParts().then(
-      parts => commit(RECEIVE_VIDEOS, { parts }),
-      error => commit(FAILURE_VIDEOS, { error }),
+    commit(REQUEST_PARTS)
+    api.getVideos().then(
+      videos => commit(RECEIVE_PARTS, { videos }),
+      error => commit(FAILURE_PARTS, { error }),
     )
   },
 }

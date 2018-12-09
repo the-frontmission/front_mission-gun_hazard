@@ -3,6 +3,7 @@ import Vuex from 'vuex'
 import game from './modules/game'
 import characters from './modules/characters'
 import parts from './modules/parts'
+import videos from './modules/videos'
 
 Vue.use(Vuex)
 
@@ -12,5 +13,6 @@ export default new Vuex.Store({
     game,
     characters,
     parts,
+    videos,
   },
 })
