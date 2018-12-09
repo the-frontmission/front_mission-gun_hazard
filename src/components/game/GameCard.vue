@@ -105,102 +105,102 @@
           </dd>
         </div>
         <dl class="row no-gutters border-bottom">
-          <dd class="col-3 col-md-6 order-md-1 text-left text-md-left">
+          <dd class="col-6 col-md-6 order-md-1 text-left text-md-left">
             {{ game.staff.developerLabelJP }}
           </dd>
-          <dd class="col-9 col-md-6 order-md-3 text-right text-md-left">
+          <dd class="col-6 col-md-6 order-md-3 text-right text-md-left">
             {{ game.staff.developerJP }}
           </dd>
-          <dd class="col-3 col-md-6 order-md-2 text-left text-md-right">
+          <dd class="col-6 col-md-6 order-md-2 text-left text-md-right">
             {{ game.staff.developerLabelKO }}
           </dd>
-          <dd class="col-9 col-md-6 order-md-4 text-right text-md-right">
+          <dd class="col-6 col-md-6 order-md-4 text-right text-md-right">
             {{ game.staff.developerKO }}
           </dd>
         </dl>
         <dl class="row no-gutters border-bottom">
-          <dd class="col-3 col-md-6 order-md-1 text-left text-md-left">
+          <dd class="col-6 col-md-6 order-md-1 text-left text-md-left">
             {{ game.staff.publisherLabelJP }}
           </dd>
-          <dd class="col-9 col-md-6 order-md-3 text-right text-md-left">
+          <dd class="col-6 col-md-6 order-md-3 text-right text-md-left">
             {{ game.staff.publisherJP }}
           </dd>
-          <dd class="col-3 col-md-6 order-md-2 text-left text-md-right">
+          <dd class="col-6 col-md-6 order-md-2 text-left text-md-right">
             {{ game.staff.publisherLabelKO }}
           </dd>
-          <dd class="col-9 col-md-6 order-md-4 text-right text-md-right">
+          <dd class="col-6 col-md-6 order-md-4 text-right text-md-right">
             {{ game.staff.publisherKO }}
           </dd>
         </dl>
         <dl class="row no-gutters border-bottom">
-          <dd class="col-3 col-md-6 order-md-1 text-left text-md-left">
+          <dd class="col-6 col-md-6 order-md-1 text-left text-md-left">
             {{ game.staff.designerLabelJP }}
           </dd>
           <dd
-            class="col-9 col-md-6 order-md-3 text-right text-md-left"
+            class="col-6 col-md-6 order-md-3 text-right text-md-left"
             :title="game.staff.designerTitleJP"
           >
             {{ game.staff.designerJP }}
           </dd>
-          <dd class="col-3 col-md-6 order-md-2 text-left text-md-right">
+          <dd class="col-6 col-md-6 order-md-2 text-left text-md-right">
             {{ game.staff.designerLabelKO }}
           </dd>
           <dd
-            class="col-9 col-md-6 order-md-4 text-right text-md-right"
+            class="col-6 col-md-6 order-md-4 text-right text-md-right"
             :title="game.staff.designerTitleKO"
           >
             {{ game.staff.designerKO }}
           </dd>
         </dl>
         <dl class="row no-gutters border-bottom">
-          <dd class="col-3 col-md-6 order-md-1 text-left text-md-left">
+          <dd class="col-7 col-md-6 order-md-1 text-left text-md-left">
             {{ game.staff.characterDesignLabelJP }}
           </dd>
-          <dd class="col-9 col-md-6 order-md-3 text-right text-md-left">
+          <dd class="col-5 col-md-6 order-md-3 text-right text-md-left">
             {{ game.staff.characterDesignJP }}
           </dd>
-          <dd class="col-3 col-md-6 order-md-2 text-left text-md-right">
+          <dd class="col-7 col-md-6 order-md-2 text-left text-md-right">
             {{ game.staff.characterDesignLabelKO }}
           </dd>
-          <dd class="col-9 col-md-6 order-md-4 text-right text-md-right">
+          <dd class="col-5 col-md-6 order-md-4 text-right text-md-right">
             {{ game.staff.characterDesignKO }}
           </dd>
         </dl>
         <dl class="row no-gutters border-bottom">
-          <dd class="col-3 col-md-6 order-md-1 text-left text-md-left">
+          <dd class="col-6 col-md-6 order-md-1 text-left text-md-left">
             {{ game.staff.composer1LabelJP }}
           </dd>
           <dd 
-            class="col-9 col-md-6 order-md-3 text-right text-md-left"
+            class="col-6 col-md-6 order-md-3 text-right text-md-left"
             :title="game.staff.composer1TitleJP"
           >
             {{ game.staff.composer1JP }}
           </dd>
-          <dd class="col-3 col-md-6 order-md-2 text-left text-md-right">
+          <dd class="col-6 col-md-6 order-md-2 text-left text-md-right">
             {{ game.staff.composer1LabelKO }}
           </dd>
           <dd
-            class="col-9 col-md-6 order-md-4 text-right text-md-right"
+            class="col-6 col-md-6 order-md-4 text-right text-md-right"
             :title="game.staff.composer1TitleKO"
           >
             {{ game.staff.composer1KO }}
           </dd>
         </dl>
         <dl class="row no-gutters border-bottom">
-          <dd class="col-3 col-md-6 order-md-1 text-left text-md-left">
+          <dd class="col-6 col-md-6 order-md-1 text-left text-md-left">
             {{ game.staff.composer2LabelJP }}
           </dd>
           <dd
-            class="col-9 col-md-6 order-md-3 text-right text-md-left"
+            class="col-6 col-md-6 order-md-3 text-right text-md-left"
             :title="game.staff.composer2TitleJP"
           >
             {{ game.staff.composer2JP }}
           </dd>
-          <dd class="col-3 col-md-6 order-md-2 text-left text-md-right">
+          <dd class="col-6 col-md-6 order-md-2 text-left text-md-right">
             {{ game.staff.composer2LabelKO }}
           </dd>
           <dd
-            class="col-9 col-md-6 order-md-4 text-right text-md-right"
+            class="col-6 col-md-6 order-md-4 text-right text-md-right"
             :title="game.staff.composer2TitleKO"
           >
             {{ game.staff.composer2KO }}

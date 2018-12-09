@@ -1,7 +1,6 @@
 <template>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4"></h1>
+  <div class="jumbotron jumbotron-fluid py-0">
+    <div class="container px-0">
       <img src="./img/front.jpeg" class="img-fluid" alt="">
     </div>
   </div>
