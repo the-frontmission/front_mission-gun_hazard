@@ -1,7 +1,7 @@
 import {
-  REQUEST_CHARACTERS,
-  RECEIVE_CHARACTERS,
-  FAILURE_CHARACTERS,
+  REQUEST_LIST__CHARACTERS,
+  RECEIVE_LIST__CHARACTERS,
+  FAILURE_LIST__CHARACTERS,
 } from '@/store/mutation-types'
 import api from '@/api'
 
@@ -14,15 +14,15 @@ const getters = {
 }
 
 const mutations = {
-  [REQUEST_CHARACTERS] (state) {
+  [REQUEST_LIST__CHARACTERS] (state) {
     state.list = []
     state.status = 'request'
   },
-  [RECEIVE_CHARACTERS] (state, { characters }) {
+  [RECEIVE_LIST__CHARACTERS] (state, { characters }) {
     state.list = [...characters]
     state.status = 'receive'
   },
-  [FAILURE_CHARACTERS] (state, { error }) {
+  [FAILURE_LIST__CHARACTERS] (state, { error }) {
     state.list = []
     state.status = error
   },
@@ -32,10 +32,10 @@ const actions = {
   getCharacters ({ state, commit }) {
     if (state.list.length) return;
 
-    commit(REQUEST_CHARACTERS)
+    commit(REQUEST_LIST__CHARACTERS)
     api.getCharacters().then(
-      characters => commit(RECEIVE_CHARACTERS, { characters }),
-      error => commit(FAILURE_CHARACTERS, { error }),
+      characters => commit(RECEIVE_LIST__CHARACTERS, { characters }),
+      error => commit(FAILURE_LIST__CHARACTERS, { error }),
     )
   },
 }
