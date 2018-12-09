@@ -1,8 +1,10 @@
 <template>
-  <nav class="navbar navbar-expand navbar-dark bg-dark flex-column flex-md-row">
-    <a class="navbar-brand" href="">GUN HAZARD</a>
-    <div class="w-100">
-      <ul class="navbar-nav flex-row justify-content-around justify-content-md-center">
+  <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row gh-navbar bg-black">
+    <router-link class="navbar-brand mr-0 mr-md-2" to="/">
+      GUN HAZARD
+    </router-link>
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav flex-row mx-auto gh-navbar-nav">
         <template v-for="(route, index) in routes">
           <router-link
             :key="index"
@@ -35,4 +37,24 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 991.98px) {
+  .gh-navbar {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+  .gh-navbar .navbar-nav-scroll {
+    max-width: 100%;
+    height: 2.5rem;
+    margin-top: .25rem;
+    overflow: hidden;
+    font-size: .875rem;
+  }
+  .gh-navbar .navbar-nav-scroll .navbar-nav {
+    padding-bottom: 2rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+</style>
