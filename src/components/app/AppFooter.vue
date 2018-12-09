@@ -2,7 +2,6 @@
   <footer class="bg-dark">
     <div class="container-fluid p-3 p-md-5">
       <div class="row">
-        <div class="col">
           <ul class="nav">
             <template v-for="(route, index) in routes">
               <router-link
@@ -19,8 +18,6 @@
               </router-link>
             </template>
           </ul>
-        </div>
-        <div class="col"></div>
       </div>
     </div>
   </footer>
