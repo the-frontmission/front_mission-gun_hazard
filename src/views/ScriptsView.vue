@@ -1,12 +1,31 @@
 <template>
-  <div>
-    <h2>Scripts</h2>
+  <div class="container">
+    <ScriptRow :scripts="scripts"/>
   </div>
 </template>
 
 <script>
+import { mapState, mapActions } from 'vuex'
+import ScriptRow from '@/components/scripts/ScriptRow.vue'
+
 export default {
   name: 'ScriptsView',
+  components: {
+    ScriptRow,
+  },
+  computed: {
+    ...mapState('scripts', {
+      scripts: 'list',
+    }),
+  },
+  methods: {
+    ...mapActions('scripts', {
+      fetch: 'getScripts',
+    }),
+  },
+  mounted() {
+    this.fetch()
+  },
 }
 </script>
 
