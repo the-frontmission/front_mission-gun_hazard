@@ -1,0 +1,472 @@
+[
+  {
+    "section": "프롤로그",
+    "chapters": [
+      {
+        "chapter": "프롤로그",
+        "date": "2018.05.08",
+        "sequence": 1
+      }
+    ]
+  },
+  {
+    "section": "에밍겐",
+    "chapters": [
+      {
+        "chapter": "엘트달 항",
+        "date": "2018.05.08",
+        "sequence": 2
+      },
+      {
+        "chapter": "오로보스 시가지",
+        "date": "2018.05.08",
+        "sequence": 3
+      },
+      {
+        "chapter": "아른 산",
+        "date": "2018.05.08",
+        "sequence": 4
+      },
+      {
+        "chapter": "그로문드 시가지",
+        "date": "2018.05.08",
+        "sequence": 5
+      },
+      {
+        "chapter": "베르겐 국방부 청사",
+        "date": "2018.05.08",
+        "sequence": 6
+      }
+    ]
+  },
+  {
+    "section": "뉴욕",
+    "chapters": [
+      {
+        "chapter": "커넬라이트 협회",
+        "date": "2018.05.08",
+        "sequence": 7
+      }
+    ]
+  },
+  {
+    "section": "생크트리히",
+    "chapters": [
+      {
+        "chapter": "연방정부 본부",
+        "date": "2018.05.08",
+        "sequence": 8
+      },
+      {
+        "chapter": "오스텐 마을",
+        "date": "2018.05.08",
+        "sequence": 9
+      },
+      {
+        "chapter": "아르벤느",
+        "date": "2018.05.08",
+        "sequence": 10
+      },
+      {
+        "chapter": "루본 숲, 호른 사단 시설",
+        "date": "2018.05.08",
+        "sequence": 11
+      },
+      {
+        "chapter": "듀어 사단 시설",
+        "date": "2018.05.08",
+        "sequence": 12
+      },
+      {
+        "chapter": "벤트 사령부",
+        "date": "2018.05.09",
+        "sequence": 13
+      }
+    ]
+  },
+  {
+    "section": "보르쿠타",
+    "chapters": [
+      {
+        "chapter": "레이더 사이트",
+        "date": "2018.05.09",
+        "sequence": 14
+      },
+      {
+        "chapter": "발토프 산, 에레스카야 산",
+        "date": "2018.05.09",
+        "sequence": 15
+      },
+      {
+        "chapter": "베츄아 강 철교",
+        "date": "2018.05.09",
+        "sequence": 16
+      },
+      {
+        "chapter": "반 정부군 본부",
+        "date": "2018.05.09",
+        "sequence": 17
+      },
+      {
+        "chapter": "샤다크 시가지",
+        "date": "2018.05.10",
+        "sequence": 18
+      },
+      {
+        "chapter": "고르체 산",
+        "date": "2018.05.10",
+        "sequence": 19
+      },
+      {
+        "chapter": "볼사이 시가지",
+        "date": "2018.05.10",
+        "sequence": 20
+      }
+    ]
+  },
+  {
+    "section": "알하리",
+    "chapters": [
+      {
+        "chapter": "ARS 군 본부",
+        "date": "2018.05.10",
+        "sequence": 21
+      },
+      {
+        "chapter": "석양의 언덕",
+        "date": "2018.05.11",
+        "sequence": 22
+      },
+      {
+        "chapter": "알하리 사막",
+        "date": "2018.05.11",
+        "sequence": 23
+      },
+      {
+        "chapter": "다하나 사막",
+        "date": "2018.05.11",
+        "sequence": 24
+      },
+      {
+        "chapter": "G-클리프",
+        "date": "2018.05.11",
+        "sequence": 25
+      },
+      {
+        "chapter": "나발 요새",
+        "date": "2018.05.11",
+        "sequence": 26
+      },
+      {
+        "chapter": "ARS 군 본부",
+        "date": "2018.05.12",
+        "sequence": 27
+      }
+    ]
+  },
+  {
+    "section": "에밍겐",
+    "chapters": [
+      {
+        "chapter": "에밍겐 시가지",
+        "date": "2018.05.12",
+        "sequence": 28
+      },
+      {
+        "chapter": "대통령 관저",
+        "date": "2018.05.12",
+        "sequence": 29
+      },
+      {
+        "chapter": "그웨인 시가지",
+        "date": "2018.05.12",
+        "sequence": 30
+      },
+      {
+        "chapter": "리요스 시가지",
+        "date": "2018.05.12",
+        "sequence": 31
+      },
+      {
+        "chapter": "비그 육군기지",
+        "date": "2018.05.13",
+        "sequence": 32
+      },
+      {
+        "chapter": "베르겐 국방부 청사",
+        "date": "2018.05.13",
+        "sequence": 33
+      }
+    ]
+  },
+  {
+    "section": "뉴욕",
+    "chapters": [
+      {
+        "chapter": "커넬라이트 협회",
+        "date": "2018.05.13",
+        "sequence": 34
+      }
+    ]
+  },
+  {
+    "section": "잔볼라",
+    "chapters": [
+      {
+        "chapter": "잠볼리 숲",
+        "date": "2018.05.13",
+        "sequence": 35
+      },
+      {
+        "chapter": "크샤사 숲, 말라바 숲, 야영지",
+        "date": "2018.05.13",
+        "sequence": 36
+      },
+      {
+        "chapter": "장가 마을 입구",
+        "date": "2018.05.14",
+        "sequence": 37
+      },
+      {
+        "chapter": "동굴로 가는 길",
+        "date": "2018.05.14",
+        "sequence": 38
+      },
+      {
+        "chapter": "가랄 산 동굴",
+        "date": "2018.05.14",
+        "sequence": 39
+      },
+      {
+        "chapter": "탄가니 의사당",
+        "date": "2018.05.14",
+        "sequence": 40
+      }
+    ]
+  },
+  {
+    "section": "시빌스카",
+    "chapters": [
+      {
+        "chapter": "시빌스카 유전",
+        "date": "2018.05.15",
+        "sequence": 41
+      },
+      {
+        "chapter": "볼프스크 시가지",
+        "date": "2018.05.16",
+        "sequence": 42
+      },
+      {
+        "chapter": "레비만 대교",
+        "date": "2018.05.16",
+        "sequence": 43
+      },
+      {
+        "chapter": "슈왈츠 함대",
+        "date": "2018.05.16",
+        "sequence": 44
+      },
+      {
+        "chapter": "베어체브 해안",
+        "date": "2018.05.16",
+        "sequence": 45
+      },
+      {
+        "chapter": "빙벽202",
+        "date": "2018.05.16",
+        "sequence": 46
+      },
+      {
+        "chapter": "구 시빌스카 요새",
+        "date": "2018.05.16",
+        "sequence": 47
+      },
+      {
+        "chapter": "코브스카야 만",
+        "date": "2018.05.16",
+        "sequence": 48
+      },
+      {
+        "chapter": "길카 빙산",
+        "date": "2018.05.16",
+        "sequence": 49
+      },
+      {
+        "chapter": "슈왈츠 요새 1부",
+        "date": "2018.05.17",
+        "sequence": 50
+      },
+      {
+        "chapter": "슈왈츠 요새 2부",
+        "date": "2018.05.17",
+        "sequence": 51
+      }
+    ]
+  },
+  {
+    "section": "뉴욕",
+    "chapters": [
+      {
+        "chapter": "커넬라이트 협회",
+        "date": "2018.05.17",
+        "sequence": 52
+      }
+    ]
+  },
+  {
+    "section": "마추픽츄",
+    "chapters": [
+      {
+        "chapter": "호세 저택",
+        "date": "2018.05.17",
+        "sequence": 53
+      },
+      {
+        "chapter": "쿠스코 마을",
+        "date": "2018.05.17",
+        "sequence": 54
+      },
+      {
+        "chapter": "마추픽추 유적",
+        "date": "2018.05.18",
+        "sequence": 55
+      },
+      {
+        "chapter": "마디오스",
+        "date": "2018.05.18",
+        "sequence": 56
+      },
+      {
+        "chapter": "쿠스코마을",
+        "date": "2018.05.18",
+        "sequence": 57
+      },
+      {
+        "chapter": "호세 저택",
+        "date": "2018.05.18",
+        "sequence": 58
+      },
+      {
+        "chapter": "호세 저택 비행장",
+        "date": "2018.05.19",
+        "sequence": 59
+      }
+    ]
+  },
+  {
+    "section": "에스포르테",
+    "chapters": [
+      {
+        "chapter": "에스포르테 시가지",
+        "date": "2018.05.19",
+        "sequence": 60
+      },
+      {
+        "chapter": "스멜리오 시가지",
+        "date": "2018.05.19",
+        "sequence": 61
+      },
+      {
+        "chapter": "콜가레",
+        "date": "2018.05.19",
+        "sequence": 62
+      },
+      {
+        "chapter": "갈자",
+        "date": "2018.05.19",
+        "sequence": 63
+      },
+      {
+        "chapter": "리오 데 삼보",
+        "date": "2018.05.20",
+        "sequence": 64
+      },
+      {
+        "chapter": "바이아 블랑카",
+        "date": "2018.05.20",
+        "sequence": 65
+      },
+      {
+        "chapter": "에스포르테 상공",
+        "date": "2018.05.21",
+        "sequence": 66
+      }
+    ]
+  },
+  {
+    "section": "마추픽츄",
+    "chapters": [
+      {
+        "chapter": "마디오스",
+        "date": "2018.05.21",
+        "sequence": 67
+      }
+    ]
+  },
+  {
+    "section": "센티넬",
+    "chapters": [
+      {
+        "chapter": "호위 함대",
+        "date": "2018.05.21",
+        "sequence": 68
+      },
+      {
+        "chapter": "센티넬",
+        "date": "2018.05.21",
+        "sequence": 69
+      },
+      {
+        "chapter": "소사이어티 본부",
+        "date": "2018.05.22",
+        "sequence": 70
+      }
+    ]
+  },
+  {
+    "section": "세계 각지",
+    "chapters": [
+      {
+        "chapter": "세계 각지",
+        "date": "2018.05.22",
+        "sequence": 71
+      }
+    ]
+  },
+  {
+    "section": "아틀러스",
+    "chapters": [
+      {
+        "chapter": "아틀러스 외벽",
+        "date": "2018.05.22",
+        "sequence": 72
+      },
+      {
+        "chapter": "에어리어 101, 102",
+        "date": "2018.05.22",
+        "sequence": 73
+      },
+      {
+        "chapter": "아틀러스 중추",
+        "date": "2018.05.22",
+        "sequence": 74
+      },
+      {
+        "chapter": "아틀러스 탈출",
+        "date": "2018.05.22",
+        "sequence": 75
+      }
+    ]
+  },
+  {
+    "section": "엔딩",
+    "chapters": [
+      {
+        "chapter": "엔딩",
+        "date": "2018.05.22",
+        "sequence": 76
+      }
+    ]
+  }
+]
