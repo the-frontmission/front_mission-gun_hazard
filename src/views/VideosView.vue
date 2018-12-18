@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <YoutubePlay
       class="sticky-top"
       v-if="currentVideo"
