@@ -19,6 +19,12 @@ export default {
       url: '/api/parts.json',
     }).then(response => response.data)
   },
+  getScrips() {
+    return axios({
+      method: 'GET',
+      url: '/api/scripts.json',
+    }).then(response => response.data)
+  },
   getVideos() {
     return axios({
       method: 'GET',
