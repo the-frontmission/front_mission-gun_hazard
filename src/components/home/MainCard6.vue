@@ -8,7 +8,7 @@
             <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
               <div class="w-100">
                 <h2 class="display-3 font-weight-bold">Game</h2>
-                <router-link class="btn btn-outline-light" :to="{ name: 'game' }">
+                <router-link class="btn btn-outline-light" to="/game">
                   View
                 </router-link>
               </div>
@@ -21,7 +21,7 @@
             <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
               <div class="w-100">
                 <h2 class="display-3 font-weight-bold">Characters</h2>
-                <router-link class="btn btn-outline-light" :to="{ name: 'characters' }">
+                <router-link class="btn btn-outline-light" to="/characters">
                   View
                 </router-link>
               </div>

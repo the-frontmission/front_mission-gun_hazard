@@ -8,7 +8,7 @@
             <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
               <div class="w-100 text-white text-center">
                 <h2 class="display-3 font-weight-bold">Parts</h2>
-                <router-link class="btn btn-outline-light" :to="{ name: 'parts' }">
+                <router-link class="btn btn-outline-light" to="/parts">
                   View
                 </router-link>
               </div>
@@ -21,7 +21,7 @@
             <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
               <div class="w-100 text-white text-center">
                 <h2 class="display-3 font-weight-bold">Scripts</h2>
-                <router-link class="btn btn-outline-light" :to="{ name: 'scripts' }">
+                <router-link class="btn btn-outline-light" to="/scripts">
                   View
                 </router-link>
               </div>
@@ -34,7 +34,7 @@
             <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
               <div class="w-100 text-white text-center">
                 <h2 class="display-3 font-weight-bold">Videos</h2>
-                <router-link class="btn btn-outline-light" :to="{ name: 'videos' }">
+                <router-link class="btn btn-outline-light" to="/videos">
                   View
                 </router-link>
               </div>

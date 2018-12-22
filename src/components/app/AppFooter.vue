@@ -8,12 +8,12 @@
                 :key="index"
                 class="nav-item"
                 tag="li"
-                :to="{ name: route.name }"
+                :to="{ path: route.path }"
                 active-class="active"
                 exact
               >
                 <a class="nav-link text-capitalize">
-                  {{ route.name }}
+                  {{ route.label }}
                 </a>
               </router-link>
             </template>

@@ -5,6 +5,8 @@ import GameView from './views/GameView.vue'
 import CharactersView from './views/CharactersView.vue'
 import PartsView from './views/PartsView.vue'
 import ScriptsView from './views/ScriptsView.vue'
+import ScriptsListView from './views/ScriptsListView.vue'
+import ScriptsDetailView from './views/ScriptsDetailView.vue'
 import VideosView from './views/VideosView.vue'
 
 Vue.use(Router)
@@ -12,32 +14,44 @@ Vue.use(Router)
 const routes = [
   {
     path: '/',
-    name: 'home',
+    label: 'home',
     component: HomeView,
   },
   {
     path: '/game',
-    name: 'game',
+    label: 'game',
     component: GameView,
   },
   {
     path: '/characters',
-    name: 'characters',
+    label: 'characters',
     component: CharactersView,
   },
   {
     path: '/parts',
-    name: 'parts',
+    label: 'parts',
     component: PartsView,
   },
   {
     path: '/scripts',
-    name: 'scripts',
+    label: 'scripts',
     component: ScriptsView,
+    children: [
+      {
+        path: '',
+        name: 'scriptsList',
+        component: ScriptsListView,
+      },
+      {
+        path: ':index',
+        name: 'scriptsDetail',
+        component: ScriptsDetailView,
+      }
+    ]
   },
   {
     path: '/videos',
-    name: 'videos',
+    label: 'videos',
     component: VideosView,
   },
 ]

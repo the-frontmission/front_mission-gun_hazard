@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row gh-navbar bg-black">
     <router-link class="navbar-brand mr-0 mr-md-2" to="/">
-      GUN HAZARD
+      Gun Hazard
     </router-link>
     <div class="navbar-nav-scroll">
       <ul class="navbar-nav flex-row mx-auto gh-navbar-nav">
@@ -10,12 +10,12 @@
             :key="index"
             class="nav-item"
             tag="li"
-            :to="{ name: route.name }"
+            :to="{ path: route.path }"
             active-class="active"
             exact
           >
             <a class="nav-link text-capitalize">
-              {{ route.name }}
+              {{ route.label }}
             </a>
           </router-link>
         </template>
