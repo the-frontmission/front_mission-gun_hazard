@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="row no-gutters border text-center my-3 p-3"
+      class="row no-gutters border-top text-center my-3 pt-3"
       v-for="(script, index) in scripts"
       :key="index"
     >
@@ -11,9 +11,12 @@
         :key="index"
       >
         <div class="d-flex flex-row flex-lg-column align-items-center">
-          <button type="button" class="btn btn-dark text-center p-0">
+          <router-link
+            class="btn btn-outline-dark text-center p-0 text-monospace"
+            :to="`scripts/${chapter.sequence}`"
+          >
             {{ chapter.sequence }}
-          </button>
+          </router-link>
           <p class="ml-3 ml-lg-0 mb-0 mt-0 mt-lg-1">
             {{ chapter.chapter }}
           </p>
@@ -25,7 +28,7 @@
 
 <script>
 export default {
-  name: 'ScriptRow',
+  name: 'ScriptsList',
   props: {
     scripts: {
       type: Array,
@@ -36,10 +39,10 @@ export default {
 </script>
 
 <style scoped>
-.btn-dark {
+.btn-outline-dark {
   height: 3rem;
   width: 3rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .gh-chapter+.gh-chapter {
   margin-top: 1rem;
