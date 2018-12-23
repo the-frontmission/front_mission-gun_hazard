@@ -31,7 +31,7 @@ const mutations = {
 
 const actions = {
   getParts ({ state, commit }) {
-    if (state.list.length) return;
+    if (state.list.length) return
 
     commit(REQUEST_LIST__PARTS)
     api.getParts().then(

@@ -30,7 +30,7 @@ const mutations = {
 
 const actions = {
   getGame ({ state, commit }) {
-    if (Object.keys(state.about).length) return;
+    if (Object.keys(state.about).length) return
 
     commit(REQUEST_LIST__GAME)
     api.getGame().then(

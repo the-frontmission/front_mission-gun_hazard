@@ -37,7 +37,7 @@ const mutations = {
 
 const actions = {
   getVideos ({ state, commit }) {
-    if (state.list.length) return;
+    if (state.list.length) return
 
     commit(REQUEST_LIST__VIDEOS)
     api.getVideos().then(
