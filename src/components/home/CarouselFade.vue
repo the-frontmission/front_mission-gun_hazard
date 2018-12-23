@@ -11,8 +11,8 @@
           <div class="carousel-caption d-block">
             <div class="d-flex justify-content-center align-items-center h-100">
               <div>
-                <h4 class="display-4 small-caps">{{ item.text }}</h4>
-                <h1 class="display-1 text-uppercase- small-caps font-weight-bold border-top border-bottom">
+                <h4 class="display-4 text-uppercase">{{ item.text }}</h4>
+                <h1 class="display-1 small-caps font-weight-bold border-top border-bottom">
                   {{ item.title }}
                 </h1>
               </div>
@@ -55,28 +55,28 @@ export default {
           img: pic1,
         },
         {
-          title: 'Front Mission',
-          text: '- Story -',
+          title: '- Story -',
+          text: 'Gun Hazard',
           img: pic2,
         },
         {
-          title: 'Front Mission',
-          text: '- System -',
+          title: '- System -',
+          text: 'Gun Hazard',
           img: pic3,
         },
         {
-          title: 'Front Mission',
-          text: '- Characters -',
+          title: '- Characters -',
+          text: 'Gun Hazard',
           img: pic4,
         },
         {
-          title: 'Front Mission',
-          text: '- Sound -',
+          title: '- Sound -',
+          text: 'Gun Hazard',
           img: pic5,
         },
         {
-          title: 'Front Mission',
-          text: '- Parts -',
+          title: '- Parts -',
+          text: 'Gun Hazard',
           img: pic6,
         },
       ],
