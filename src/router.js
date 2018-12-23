@@ -6,7 +6,7 @@ import CharactersView from './views/CharactersView.vue'
 import PartsView from './views/PartsView.vue'
 import ScriptsView from './views/ScriptsView.vue'
 import ScriptsListView from './views/ScriptsListView.vue'
-import ScriptsDetailView from './views/ScriptsDetailView.vue'
+import ScriptsChapterView from './views/ScriptsChapterView.vue'
 import VideosView from './views/VideosView.vue'
 
 Vue.use(Router)
@@ -44,8 +44,8 @@ const routes = [
       },
       {
         path: ':index',
-        name: 'scriptsDetail',
-        component: ScriptsDetailView,
+        name: 'scriptsChapter',
+        component: ScriptsChapterView,
       }
     ]
   },

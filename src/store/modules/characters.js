@@ -30,7 +30,7 @@ const mutations = {
 
 const actions = {
   getCharacters ({ state, commit }) {
-    if (state.list.length) return;
+    if (state.list.length) return
 
     commit(REQUEST_LIST__CHARACTERS)
     api.getCharacters().then(

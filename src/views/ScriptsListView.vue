@@ -15,12 +15,12 @@ export default {
     ScriptsList,
   },
   computed: {
-    ...mapState('scriptsList', {
+    ...mapState('scripts', {
       scripts: 'list',
     }),
   },
   methods: {
-    ...mapActions('scriptsList', {
+    ...mapActions('scripts', {
       fetch: 'getScriptsList',
     }),
   },

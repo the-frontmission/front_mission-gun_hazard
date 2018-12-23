@@ -1,7 +1,7 @@
 <template>
   <div class="my-5">
-    <h3 class="mb-4">{{ detail.index }}. {{ detail.title }}</h3>
-    <template v-for="(el, index) in detail.script">
+    <h3 class="mb-4">{{ chapter.index }}. {{ chapter.title }}</h3>
+    <template v-for="(el, index) in chapter.script">
       <div :key="index">
         <p v-if="el.hasOwnProperty('text')" lang="ko">
           {{ el.text || '&nbsp;' }}
@@ -15,9 +15,9 @@
 
 <script>
 export default {
-  name: 'ScriptsDetail',
+  name: 'ScriptsChapter',
   props: {
-    detail: {
+    chapter: {
       type: Object,
       required: true,
     },
