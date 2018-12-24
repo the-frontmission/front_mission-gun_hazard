@@ -33,7 +33,7 @@ export default {
   padding-left: 0;
   padding-right: 0;
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
     padding-left: 15px;
     padding-right: 15px;

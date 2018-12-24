@@ -57,7 +57,7 @@ export default {
 .gh-chapter+.gh-chapter {
   margin-top: 1.5rem;
 }
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .gh-chapter+.gh-chapter {
     margin-top: 0;
   }
