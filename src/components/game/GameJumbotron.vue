@@ -5,7 +5,7 @@
         <div class="col-lg-6">
           <img src="./img/front.jpeg" class="img-fluid" alt="">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 mt-3 mt-lg-0">
           2064年。<br>
           天を貫く巨大な塔、世界の平和と協調のシンボルと称された軌道エレベーター「アトラス」は完成した。<br>
           しかし40年という長期に渡る建造期間は、軌道エレベーター本来の意義を失わせた。<br>
