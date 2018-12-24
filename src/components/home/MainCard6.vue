@@ -7,7 +7,7 @@
             <img class="card-img rounded-0" src="./img/material-wall2.jpeg" alt="Card image">
             <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
               <div class="w-100">
-                <h2 class="display-3 font-weight-bold">Game</h2>
+                <h2 class="display-4 font-weight-bold">Game</h2>
                 <router-link class="btn btn-outline-light" to="/game">
                   View
                 </router-link>
@@ -20,7 +20,7 @@
             <img class="card-img rounded-0" src="./img/material-wall1.jpeg" alt="Card image">
             <div class="card-img-overlay bg-gradient-dark d-flex align-items-center">
               <div class="w-100">
-                <h2 class="display-3 font-weight-bold">Characters</h2>
+                <h2 class="display-4 font-weight-bold">Characters</h2>
                 <router-link class="btn btn-outline-light" to="/characters">
                   View
                 </router-link>
