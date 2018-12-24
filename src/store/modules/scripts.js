@@ -49,7 +49,6 @@ const mutations = {
   },
   [RECEIVE_CHAPTER__SCRIPTS] (state, { index, content }) {
     state.list.find(section => {
-      console.log(section.section)
       const chapter = section.chapters.find(ch => ch.sequence === parseInt(index, 10))
       if (chapter) {
         chapter.isLoaded = true
