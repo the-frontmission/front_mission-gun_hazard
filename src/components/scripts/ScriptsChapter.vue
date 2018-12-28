@@ -6,8 +6,8 @@
         <p v-if="el.hasOwnProperty('text')" lang="ko">
           {{ el.text || '&nbsp;' }}
         </p>
-        <p class="text-muted mb-0" lang="jp">{{ el.textJP }}</p>
-        <p class="lead" lang="ko">{{ el.textKO }}</p>
+        <p class="text-dark mb-0" lang="jp">{{ el.textJP }}</p>
+        <p class="text-body lead" lang="ko">{{ el.textKO }}</p>
       </div>
     </template>
   </div>

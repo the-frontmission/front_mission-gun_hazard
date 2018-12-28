@@ -24,8 +24,8 @@
           target="_blank"
           class="text-decoration-none text-reset"
         >
-          @phil
-        </a>.
+          @phil.
+        </a>
       </p>
     </div>
   </footer>
