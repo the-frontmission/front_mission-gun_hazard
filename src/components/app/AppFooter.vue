@@ -11,14 +11,21 @@
             active-class="active"
             exact
           >
-            <a class="nav-link text-capitalize">
+            <a class="nav-link text-capitalize text-reset">
               {{ route.label }}
             </a>
           </router-link>
         </template>
       </ul>
       <p>
-        Designed and built by <a href="https://github.com/GimYoungPhil" target="_blank">@phil</a>.
+        Designed and built by
+        <a
+          href="https://github.com/GimYoungPhil"
+          target="_blank"
+          class="text-decoration-none text-reset"
+        >
+          @phil
+        </a>.
       </p>
     </div>
   </footer>
@@ -41,10 +48,10 @@ export default {
 .nav-item:first-child .nav-link {
   padding-left: 0;
 }
-.nav-link {
+/* .nav-link {
   color: #343a40;
 }
 .nav-link:hover {
   color: #007bff;
-}
+} */
 </style>
