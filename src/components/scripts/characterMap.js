@@ -1,0 +1,86 @@
+export default [
+  {
+    i: 1,
+    nameJP: 'アルベルト',
+    nameKO: '알베르트',
+    image: '1-albert_mormal.png',
+  },
+  {
+    uid: 2,
+    nameJP: 'ブレンダ',
+    nameKO: '브렌다',
+    image: '2-brenda_mormal.png',
+  },
+  {
+    uid: 3,
+    nameJP: 'クラーク',
+    nameKO: '클라크',
+    image: '3-klark_mormal.png',
+  },
+  {
+    uid: 4,
+    nameJP: 'エミル',
+    nameKO: '에밀',
+    image: '4-emile_mormal.png',
+  },
+  {
+    uid: 5,
+    nameJP: 'アクセル',
+    nameKO: '엑셀',
+    image: '5-axel_mormal.png',
+  },
+  {
+    uid: 6,
+    nameJP: 'ルヴェン',
+    nameKO: '루벤',
+    image: '6-luven_mormal.png',
+  },
+  {
+    uid: 7,
+    nameJP: 'サカタ',
+    nameKO: '사카타',
+    image: '7-sakata_mormal.png',
+  },
+  {
+    uid: 8,
+    nameJP: 'アニタ',
+    nameKO: '아니타',
+    image: '8-anita_mormal.png',
+  },
+  {
+    uid: 9,
+    nameJP: 'リチャード',
+    nameKO: '리처드',
+    image: '9-richard_mormal.png',
+  },
+  {
+    uid: 10,
+    nameJP: 'アーク',
+    nameKO: '아크',
+    image: '10-ark_mormal.png',
+  },
+  {
+    uid: 11,
+    nameJP: 'ジェノス',
+    nameKO: '제노스',
+    image: '11-genoce_mormal.png',
+  },
+  {
+    uid: 12,
+    nameJP: 'ルーク',
+    nameKO: '루크',
+    image: '12-rook_mormal.png',
+  },
+  {
+    uid: 13,
+    nameJP: 'ビショップ',
+    nameKO: '비숍',
+    image: '13-bishop_mormal.png',
+  },
+  {
+    uid: 14,
+    nameJP: 'フェルダー',
+    nameKO: '펠더',
+    image: '14-felder_mormal.png',
+  },
+];
