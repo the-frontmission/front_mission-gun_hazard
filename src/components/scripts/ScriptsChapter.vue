@@ -15,7 +15,8 @@
           </div>
         </template>
         <template v-if="el.hasOwnProperty('scriptJP')">
-          <div class="media">
+          <ScriptsChapterMedia :script="el"/>
+          <!-- <div class="media">
             <img class="mr-3" src="./img/1-albert_normal.png" alt="image" width="48"
               v-if="el.scriptJP.split('：').length === 2"
             >
@@ -23,7 +24,7 @@
               <h5 class="mt-0 text-dark" lang="jp">{{ el.scriptJP }}</h5>
               <p class="lead" lang="ko">{{ el.scriptKO }}</p>
             </div>
-          </div>
+          </div> -->
         </template>
       </div>
     </template>
@@ -31,8 +32,13 @@
 </template>
 
 <script>
+import ScriptsChapterMedia from './ScriptsChapterMedia.vue';
+
 export default {
   name: 'ScriptsChapter',
+  components: {
+    ScriptsChapterMedia,
+  },
   props: {
     chapter: {
       type: Object,
@@ -41,9 +47,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.ml-64 {
-  margin-left: 4rem;
-}
-</style>
