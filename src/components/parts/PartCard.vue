@@ -4,7 +4,7 @@
       <template v-if="item.type === 'group'">
         <div class="card-body text-white text-right">
           <h1 class="display-3">{{ item.number }}</h1>
-          <h1 class="display-4">{{ item.name }}</h1>
+          <h1>{{ item.name }}</h1>
         </div>
       </template>
       <template v-else-if="item.type === 'item'">
@@ -34,7 +34,7 @@ export default {
 <style scoped>
 @media (min-width: 768px) {
   .card {
-    min-height: 20rem;
+    min-height: 18rem;
   }
 }
 </style>
