@@ -1,6 +1,6 @@
 [
   {
-    "name": "Body",
+    "name": "Wanzer Body",
     "nameKO": "바디",
     "color": "bg-primary",
     "contents": [
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "name": "Main Weapon",
+    "name": "Primary Weapons",
     "nameKO": "주무기",
     "color": "bg-secondary",
     "contents": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "name": "Special Weapon",
+    "name": "Special Weapons",
     "nameKO": "특수무기",
     "color": "bg-success",
     "contents": [
@@ -185,7 +185,7 @@
     ]
   },
   {
-    "name": "Pilot",
+    "name": "Pilot Gear",
     "nameKO": "파일럿용",
     "color": "bg-info",
     "contents": [
