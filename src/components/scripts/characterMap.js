@@ -108,15 +108,35 @@ export default [
     image: '18-randolph_normal.png',
   },
   {
-    uid: 22,
-    image: '22-beegsoldiern.png',
+    uid: 101,
+    image: '101-beegsoldier.png',
   },
   {
-    uid: 23,
-    image: '23-beegsoldier.png',
+    uid: 102,
+    image: '102-beegsoldiern.png',
   },
   {
-    uid: 28,
-    image: '28-arksoldier.png',
+    uid: 103,
+    image: '103-arksoldier.png',
+  },
+  {
+    uid: 104,
+    image: '104-villager.png',
+  },
+  {
+    uid: 105,
+    image: '105-villager.png',
+  },
+  {
+    uid: 106,
+    image: '106-villager.png',
+  },
+  {
+    uid: 107,
+    image: '107-villager.png',
+  },
+  {
+    uid: 108,
+    image: '108-villager.png',
   },
 ];
