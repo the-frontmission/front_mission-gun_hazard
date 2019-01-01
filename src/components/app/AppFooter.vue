@@ -20,12 +20,20 @@
       <p>
         Designed and built by
         <a
-          href="https://github.com/GimYoungPhil"
+          href="https://github.com/GimYoungPhil/"
           target="_blank"
           class="text-decoration-none text-reset"
         >
           @phil.
-        </a>
+        </a><br/>
+        Special thanks to
+        <a
+          href="http://culpenetty.egloos.com/"
+          target="_blank"
+          class="text-decoration-none text-reset"
+        >
+          @culpenetty.
+        </a><br/>
       </p>
     </div>
   </footer>
