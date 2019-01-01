@@ -9,7 +9,9 @@
       </template>
       <template v-else-if="item.type === 'item'">
         <div class="card-body bg-white ml-3 p-3">
-          <h2>{{ item.name }}</h2>
+          <h4>{{ item.name }}
+            <small class="text-muted">{{ item.code }}</small>
+          </h4>
           <p class="mb-0">{{ item.description }}</p>
         </div>
       </template>
@@ -32,7 +34,7 @@ export default {
 <style scoped>
 @media (min-width: 768px) {
   .card {
-    min-height: 18rem;
+    min-height: 20rem;
   }
 }
 </style>

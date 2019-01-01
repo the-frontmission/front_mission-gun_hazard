@@ -12,11 +12,13 @@ export const parseParts = (list) => {
     })
 
     contents.forEach((item, index) => {
-      const { name, description } = item
+      const { name, code, description, price } = item
       const number = ('0' + (index + 1)).slice(-2)
       result.push({
         name,
+        code,
         description,
+        price,
         group: group.name,
         color: group.color,
         type: 'item',
