@@ -8,7 +8,7 @@
             {{ script.chapters[0].sequence }}
           </span>
           <span v-else>
-            {{ script.chapters[0].sequence }} ~ {{ script.chapters[script.chapters.length - 1].sequence }}
+            {{ script.chapters[0].sequence }} - {{ script.chapters[script.chapters.length - 1].sequence }}
           </span>
         </p>
         <div class="row no-gutters border-top text-center py-4 py-lg-5">
