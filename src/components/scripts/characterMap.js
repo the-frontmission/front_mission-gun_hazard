@@ -139,4 +139,20 @@ export default [
     uid: 108,
     image: '108-villager.png',
   },
+  {
+    uid: 109,
+    image: '108-villager.png',
+  },
+  {
+    uid: 110,
+    image: '110-guerilla_1.png',
+  },
+  {
+    uid: 111,
+    image: '111-guerilla_2.png',
+  },
+  {
+    uid: 112,
+    image: '112-guerilla_3.png',
+  },
 ];
