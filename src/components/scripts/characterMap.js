@@ -108,6 +108,24 @@ export default [
     image: '18-randolph_normal.png',
   },
   {
+    uid: 19,
+    nameJP: 'ヨハンセン',
+    nameKO: '요한센',
+    image: '19-johanson_normal.png',
+  },
+  {
+    uid: 20,
+    nameJP: 'ミハエル',
+    nameKO: '미하엘',
+    image: '20-mikhail_normal.png',
+  },
+  {
+    uid: 21,
+    nameJP: 'ミハエルの父',
+    nameKO: '미하엘의 아버지',
+    image: '21-mikhail_dad.png',
+  },
+  {
     uid: 101,
     image: '101-beegsoldier.png',
   },
@@ -154,5 +172,33 @@ export default [
   {
     uid: 112,
     image: '112-guerilla_3.png',
+  },
+  {
+    uid: 1401,
+    image: '1401-boruktasoldier.png',
+  },
+  {
+    uid: 1501,
+    image: '1501-pilot.png',
+  },
+  {
+    uid: 1801,
+    image: '1801-boruktasoldier.png',
+  },
+  {
+    uid: 1802,
+    image: '1802-citizen.png',
+  },
+  {
+    uid: 2001,
+    nameJP: '政府軍兵士',
+    nameKO: '정부군 병사',
+    image: '2001-tchernenko_soldier.png',
+  },
+  {
+    uid: 2002,
+    nameJP: '政府軍仕官',
+    nameKO: '정부군 사관',
+    image: '2002-tchernenko_boss.png',
   },
 ];
