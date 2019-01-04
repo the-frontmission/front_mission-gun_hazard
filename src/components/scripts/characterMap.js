@@ -95,12 +95,7 @@ export default [
     nameKO: '대통령',
     image: '16-orwen_normal.png',
   },
-  {
-    uid: 17,
-    nameJP: '',
-    nameKO: '',
-    image: '17-camilla_normal.png',
-  },
+
   {
     uid: 18,
     nameJP: 'ランドルフ',
@@ -200,5 +195,61 @@ export default [
     nameJP: '政府軍仕官',
     nameKO: '정부군 사관',
     image: '2002-tchernenko_boss.png',
+  },
+  {
+    uid: 2101,
+    nameJP: 'サファド',
+    nameKO: '사파드',
+    image: '2101-safad_normal.png',
+  },
+  {
+    uid: 2102,
+    image: '2102-soldier.png',
+  },
+  {
+    uid: 2202,
+    nameJP: 'カミーラ',
+    nameKO: '카밀라',
+    image: '2202-camilla_normal.png',
+  },
+  {
+    uid: 2301,
+    image: '2301-soldier.png',
+  },
+  {
+    uid: 2501,
+    nameJP: '要塞警備兵',
+    nameKO: '요새 경비병',
+    image: '2501-guard.png',
+  },
+  {
+    uid: 2601,
+    nameJP: '要塞司令官',
+    nameKO: '요새 사령관',
+    image: '2601-commander.png',
+  },
+  {
+    uid: 2801,
+    nameJP: 'リンカー',
+    nameKO: '링커',
+    image: '2801-rinker.png',
+  },
+  {
+    uid: 2802,
+    nameJP: 'パイロット',
+    nameKO: '파일럿',
+    image: '2802-pilot.png',
+  },
+  {
+    uid: 2901,
+    image: '2901-soldier.png',
+  },
+  {
+    uid: 2902,
+    image: '2902-soldier.png',
+  },
+  {
+    uid: 3201,
+    image: '3201-soldier.png',
   },
 ];
