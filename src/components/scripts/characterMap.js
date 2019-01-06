@@ -278,4 +278,10 @@ export default [
     nameKO: '봉고 촌장',
     image: '3701-chief.png',
   },
+  {
+    uid: 3901,
+    nameJP: 'エルガー',
+    nameKO: '엘거',
+    image: '3901-elgar.png',
+  },
 ];
