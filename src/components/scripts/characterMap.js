@@ -252,4 +252,24 @@ export default [
     uid: 3201,
     image: '3201-soldier.png',
   },
+  {
+    uid: 3501,
+    nameJP: 'キール',
+    nameKO: '킬',
+    image: '3501-keel.png',
+  },
+  {
+    uid: 3502,
+    image: '3502-zambola-soldier.png',
+  },
+  {
+    uid: 3503,
+    image: '3503-static.png',
+  },
+  {
+    uid: 3504,
+    nameJP: 'バルミング',
+    nameKO: '발밍',
+    image: '3503-balming_normal.png',
+  },
 ];
