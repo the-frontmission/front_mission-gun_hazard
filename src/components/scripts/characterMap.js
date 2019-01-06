@@ -272,4 +272,10 @@ export default [
     nameKO: '발밍',
     image: '3503-balming_normal.png',
   },
+  {
+    uid: 3701,
+    nameJP: 'ボンゴ村長',
+    nameKO: '봉고 촌장',
+    image: '3701-chief.png',
+  },
 ];
