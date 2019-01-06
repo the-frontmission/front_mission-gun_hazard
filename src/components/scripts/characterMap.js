@@ -320,4 +320,12 @@ export default [
     uid: 4501,
     image: '4501-soldier.png',
   },
+  {
+    uid: 4601,
+    image: '4601-soldier.png',
+  },
+  {
+    uid: 4602,
+    image: '4602-officer.png',
+  },
 ];
