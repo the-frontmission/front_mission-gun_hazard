@@ -284,4 +284,24 @@ export default [
     nameKO: '엘거',
     image: '3901-elgar.png',
   },
+  {
+    uid: 4101,
+    nameJP: 'レジネフ',
+    nameKO: '레지네프',
+    image: '4101-reginef.png',
+  },
+  {
+    uid: 4102,
+    image: '4102-worker.png',
+  },
+  {
+    uid: 4103,
+    nameJP: 'シヴァルツ',
+    nameKO: '슈왈츠',
+    image: '4103-shivaltz_normal.png',
+  },
+  {
+    uid: 4104,
+    image: '4104-soldier.png',
+  },
 ];
