@@ -304,4 +304,8 @@ export default [
     uid: 4104,
     image: '4104-soldier.png',
   },
+  {
+    uid: 4201,
+    image: '4201-soldier.png',
+  },
 ];
