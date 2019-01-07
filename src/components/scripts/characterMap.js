@@ -236,8 +236,6 @@ export default [
   },
   {
     uid: 2802,
-    nameJP: 'パイロット',
-    nameKO: '파일럿',
     image: '2802-pilot.png',
   },
   {
@@ -327,5 +325,39 @@ export default [
   {
     uid: 4602,
     image: '4602-officer.png',
+  },
+  {
+    uid: 5301,
+    nameJP: 'ホセ警護兵',
+    nameKO: '호세 경비병',
+    image: '5301-escort.png',
+  },
+  {
+    uid: 5302,
+    nameJP: 'ホセ',
+    nameKO: '호세',
+    image: '5302-jose_normal.png',
+  },
+  {
+    uid: 5401,
+    nameJP: 'グラント',
+    nameKO: '그랜트',
+    image: '5401-grant_normal.png',
+  },
+  {
+    uid: 5901,
+    image: '5901-pilot.png',
+  },
+  {
+    uid: 5902,
+    nameJP: '近衛隊長',
+    nameKO: '근위 대장',
+    image: '5902-praen.png',
+  },
+  {
+    uid: 5903,
+    nameJP: 'ガーディアン総司令',
+    nameKO: '가디언 총사령관',
+    image: '5903-commander.png',
   },
 ];
