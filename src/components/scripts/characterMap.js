@@ -169,6 +169,12 @@ export default [
     image: '112-guerilla_3.png',
   },
   {
+    uid: 1301,
+    nameJP: 'ゲリラ隊長',
+    nameKO: '게릴라 대장',
+    image: '1301-guerrilla_lead.png',
+  },
+  {
     uid: 1401,
     image: '1401-boruktasoldier.png',
   },
@@ -343,6 +349,14 @@ export default [
     nameJP: 'グラント',
     nameKO: '그랜트',
     image: '5401-grant_normal.png',
+  },
+  {
+    uid: 5601,
+    image: '5601-pilot.png',
+  },
+  {
+    uid: 5602,
+    image: '5602-pilot.png',
   },
   {
     uid: 5901,
