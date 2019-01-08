@@ -230,9 +230,13 @@ export default [
   },
   {
     uid: 2601,
+    image: '2601-static.png',
+  },
+  {
+    uid: 2602,
     nameJP: '要塞司令官',
     nameKO: '요새 사령관',
-    image: '2601-commander.png',
+    image: '2602-commander.png',
   },
   {
     uid: 2801,
@@ -274,7 +278,7 @@ export default [
     uid: 3504,
     nameJP: 'バルミング',
     nameKO: '발밍',
-    image: '3503-balming_normal.png',
+    image: '3504-balming_normal.png',
   },
   {
     uid: 3701,
