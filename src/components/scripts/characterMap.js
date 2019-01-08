@@ -261,6 +261,14 @@ export default [
     image: '3201-soldier.png',
   },
   {
+    uid: 3301,
+    image: '3301-soldier.png',
+  },
+  {
+    uid: 3302,
+    image: '3302-soldier.png',
+  },
+  {
     uid: 3501,
     nameJP: 'キール',
     nameKO: '킬',
@@ -343,6 +351,12 @@ export default [
     image: '5301-escort.png',
   },
   {
+    uid: 5001,
+    nameJP: 'カゲミツ',
+    nameKO: '카게미츠',
+    image: '5001-kagemitsu.png',
+  },
+  {
     uid: 5302,
     nameJP: 'ホセ',
     nameKO: '호세',
@@ -377,5 +391,15 @@ export default [
     nameJP: 'ガーディアン総司令',
     nameKO: '가디언 총사령관',
     image: '5903-commander.png',
+  },
+  {
+    uid: 6501,
+    image: '6501-officer.png',
+  },
+  {
+    uid: 7001,
+    nameJP: 'ソサエティ総統',
+    nameKO: '소사이어티 총통',
+    image: '7001-controller_normal.png',
   },
 ];
