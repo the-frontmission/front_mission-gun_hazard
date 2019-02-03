@@ -1,5 +1,7 @@
 # front_mission-gun_hazard
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/96158b19-e9ca-45b1-b6f5-276bf22a5be4/deploy-status)](https://app.netlify.com/sites/the-gunhazard/deploys)
+
 ## Project setup
 ```
 yarn install
