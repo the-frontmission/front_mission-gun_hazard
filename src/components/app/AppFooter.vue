@@ -4,6 +4,7 @@
       <ul class="nav">
         <template v-for="(route, index) in routes">
           <router-link
+            v-if="route.label"
             :key="index"
             class="nav-item"
             tag="li"
@@ -11,9 +12,7 @@
             active-class="active"
             exact
           >
-            <a class="nav-link text-capitalize text-reset">
-              {{ route.label }}
-            </a>
+            <a class="nav-link text-capitalize text-reset">{{ route.label }}</a>
           </router-link>
         </template>
       </ul>
@@ -56,10 +55,4 @@ export default {
 .nav-item:first-child .nav-link {
   padding-left: 0;
 }
-/* .nav-link {
-  color: #343a40;
-}
-.nav-link:hover {
-  color: #007bff;
-} */
 </style>
