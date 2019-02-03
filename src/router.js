@@ -13,37 +13,36 @@ Vue.use(Router)
 const routes = [
   {
     path: '/',
-    label: 'Home',
+    name: 'home',
     component: HomeView,
   },
   {
     path: '/game',
-    label: 'Game',
+    name: 'game',
     component: GameView,
   },
   {
     path: '/characters',
-    label: 'Characters',
+    name: 'characters',
     component: CharactersView,
   },
   {
     path: '/parts',
-    label: 'Parts',
+    name: 'parts',
     component: PartsView,
   },
   {
     path: '/scripts',
-    label: 'Scripts',
+    name: 'scripts',
     component: ScriptsListView,
   },
   {
     path: '/scripts/:index',
-    name: 'scriptsChapter',
     component: ScriptsChapterView,
   },
   {
     path: '/videos',
-    label: 'videos',
+    name: 'videos',
     component: VideosView,
   },
 ]

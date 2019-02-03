@@ -4,15 +4,13 @@
       <ul class="nav">
         <template v-for="(route, index) in routes">
           <router-link
-            v-if="route.label"
+            v-if="route.name"
             :key="index"
             class="nav-item"
             tag="li"
             :to="{ path: route.path }"
-            active-class="active"
-            exact
           >
-            <a class="nav-link text-capitalize text-reset">{{ route.label }}</a>
+            <a class="nav-link text-capitalize text-reset">{{ route.name }}</a>
           </router-link>
         </template>
       </ul>
