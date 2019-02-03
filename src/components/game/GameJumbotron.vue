@@ -1,6 +1,6 @@
 <template>
   <div class="jumbotron jumbotron-fluid">
-    <div class="container px-0">
+    <div class="container">
       <div class="row">
         <div class="col-lg-6">
           <img src="./img/front.jpeg" class="img-fluid" alt="">
@@ -23,5 +23,3 @@ export default {
   name: 'GameJumbotron',
 }
 </script>
-
-<style></style>
