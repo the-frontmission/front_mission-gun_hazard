@@ -1,14 +1,14 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HomeView from './views/HomeView.vue'
-import GameView from './views/GameView.vue'
-import CharactersView from './views/CharactersView.vue'
-import PartsView from './views/PartsView.vue'
-import ScriptsListView from './views/ScriptsListView.vue'
-import ScriptsChapterView from './views/ScriptsChapterView.vue'
-import VideosView from './views/VideosView.vue'
+import Vue from 'vue';
+import Router from 'vue-router';
+import HomeView from './views/HomeView.vue';
+import GameView from './views/GameView.vue';
+import CharactersView from './views/CharactersView.vue';
+import PartsView from './views/PartsView.vue';
+import ScriptsListView from './views/ScriptsListView.vue';
+import ScriptsChapterView from './views/ScriptsChapterView.vue';
+import VideosView from './views/VideosView.vue';
 
-Vue.use(Router)
+Vue.use(Router);
 
 const routes = [
   {
@@ -45,14 +45,14 @@ const routes = [
     name: 'videos',
     component: VideosView,
   },
-]
+];
 
-export { routes }
+export { routes };
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
   scrollBehavior () {
-    return { x: 0, y: 0 }
+    return { x: 0, y: 0 };
   },
-})
+});

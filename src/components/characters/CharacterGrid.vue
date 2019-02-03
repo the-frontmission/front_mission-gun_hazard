@@ -74,7 +74,7 @@ const statusMap = {
     'JP': '死亡',
     'KO': '사망',
   },
-}
+};
 const genderMap = {
   'Male': {
     'JP': '男性',
@@ -84,7 +84,7 @@ const genderMap = {
     'JP': '女性',
     'KO': '여성',
   },
-}
+};
 
 export default {
   name: 'CharactersGid',
@@ -98,11 +98,7 @@ export default {
     return {
       statusMap,
       genderMap,
-    }
+    };
   },
-}
+};
 </script>
-
-<style scoped>
-</style>
-

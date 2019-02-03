@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <PartCard
-        v-for="(item, index) in parts" :key="index"
+        v-for="(item, index) in list" :key="index"
         :item="item"
       />
     </div>
@@ -19,9 +19,9 @@ export default {
     PartCard,
   },
   computed: {
-    ...mapState('parts', {
-      parts: 'list',
-    }),
+    ...mapState('parts', [
+      'list',
+    ]),
   },
   methods: {
     ...mapActions('parts', {

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <CharacterGrid
-      v-for="character in characters"
+      v-for="character in list"
       :key="character.uid"
       :character="character"
     />
@@ -18,9 +18,9 @@ export default {
     CharacterGrid,
   },
   computed: {
-    ...mapState('characters', {
-      characters: 'list',
-    }),
+    ...mapState('characters', [
+      'list',
+    ]),
   },
   methods: {
     ...mapActions('characters', {
@@ -28,7 +28,7 @@ export default {
     }),
   },
   mounted() {
-    this.fetch()
+    this.fetch();
   },
-}
+};
 </script>

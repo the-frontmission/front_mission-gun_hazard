@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
-import ScriptsList from '@/components/scripts/ScriptsList.vue'
+import { mapState, mapActions } from 'vuex';
+import ScriptsList from '@/components/scripts/ScriptsList.vue';
 
 export default {
   name: 'ScriptsListView',
@@ -30,7 +30,7 @@ export default {
     }),
   },
   mounted() {
-    this.fetch()
+    this.fetch();
   },
-}
+};
 </script>

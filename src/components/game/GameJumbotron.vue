@@ -21,5 +21,5 @@
 <script>
 export default {
   name: 'GameJumbotron',
-}
+};
 </script>

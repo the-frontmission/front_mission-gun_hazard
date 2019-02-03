@@ -37,12 +37,12 @@
 </template>
 
 <script>
-import pic1 from './img/place-factory1.jpeg'
-import pic2 from './img/place-mauntain1.jpeg'
-import pic3 from './img/place-mauntain2.jpeg'
-import pic4 from './img/place-newyork.jpeg'
-import pic5 from './img/place-port.jpeg'
-import pic6 from './img/place-factory2.jpeg'
+import pic1 from './img/place-factory1.jpeg';
+import pic2 from './img/place-mauntain1.jpeg';
+import pic3 from './img/place-mauntain2.jpeg';
+import pic4 from './img/place-newyork.jpeg';
+import pic5 from './img/place-port.jpeg';
+import pic6 from './img/place-factory2.jpeg';
 
 export default {
   name: 'CarouselFade',
@@ -85,17 +85,17 @@ export default {
   },
   methods: {
     prevCarousel() {
-      const length = this.list.length
-      const index = this.currentIndex
-      this.currentIndex = (index - 1 < 0) ? length - 1 : index - 1
+      const length = this.list.length;
+      const index = this.currentIndex;
+      this.currentIndex = (index - 1 < 0) ? length - 1 : index - 1;
     },
     nextCarousel() {
-      const length = this.list.length
-      const index = this.currentIndex
-      this.currentIndex = (index + 1 === length) ? 0 : index + 1
+      const length = this.list.length;
+      const index = this.currentIndex;
+      this.currentIndex = (index + 1 === length) ? 0 : index + 1;
     },
   },
-}
+};
 </script>
 
 <style scoped>

@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
-import ScriptsChapter from '@/components/scripts/ScriptsChapter.vue'
+import { mapGetters, mapActions } from 'vuex';
+import ScriptsChapter from '@/components/scripts/ScriptsChapter.vue';
 
 export default {
   name: 'ScriptsDetailView',
@@ -31,10 +31,10 @@ export default {
     }),
   },
   mounted() {
-    const { index } = this.$route.params
-    this.fetch({ index })
+    const { index } = this.$route.params;
+    this.fetch({ index });
   },
-}
+};
 </script>
 
 <style scoped>

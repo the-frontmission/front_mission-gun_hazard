@@ -6,17 +6,17 @@
       :video="currentVideo"
     />
     <VideoCardList
-      :list="videos"
+      :list="list"
       @selectVideo="select"
     />
   </div>
 </template>
 
 <script>
-import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
-import YoutubePlay from '@/components/videos/YoutubePlay.vue'
-import VideoCardList from '@/components/videos/VideoCardList.vue'
-import { SELECT_INDEX__VIDEOS } from '@/store/mutation-types'
+import { mapState, mapGetters, mapMutations, mapActions } from 'vuex';
+import YoutubePlay from '@/components/videos/YoutubePlay.vue';
+import VideoCardList from '@/components/videos/VideoCardList.vue';
+import { SELECT_INDEX__VIDEOS } from '@/store/mutation-types';
 
 export default {
   name: 'VideosView',
@@ -25,9 +25,9 @@ export default {
     VideoCardList,
   },
   computed: {
-    ...mapState('videos', {
-      videos: 'list',
-    }),
+    ...mapState('videos', [
+      'list',
+    ]),
     ...mapGetters('videos', [
       'currentVideo',
     ]),
@@ -41,7 +41,7 @@ export default {
     }),
   },
   mounted() {
-    this.fetch()
+    this.fetch();
   },
-}
+};
 </script>

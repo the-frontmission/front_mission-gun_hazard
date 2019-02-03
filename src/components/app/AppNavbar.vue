@@ -22,16 +22,16 @@
 </template>
 
 <script>
-import { routes } from '@/router'
+import { routes } from '@/router';
 
 export default {
   name: 'AppNavbar',
   data() {
     return {
       routes,
-    }
+    };
   },
-}
+};
 </script>
 
 <style scoped>
