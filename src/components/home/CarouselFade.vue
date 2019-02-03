@@ -11,8 +11,8 @@
           <div class="carousel-caption d-block">
             <div class="d-flex justify-content-center align-items-center h-100">
               <div>
-                <h4 class="display-4 text-uppercase">{{ item.text }}</h4>
-                <h1 class="display-1 small-caps font-weight-bold border-top border-bottom">
+                <h1 class="small-caps">{{ item.text }}</h1>
+                <h1 class="display-4 text-uppercase font-weight-bold border-top border-bottom">
                   {{ item.title }}
                 </h1>
               </div>
